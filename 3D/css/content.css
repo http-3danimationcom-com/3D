@@ -1,0 +1,26 @@
+.Example-animation .love{
+    padding-left: 20rem;
+    padding-top: 20px;
+    padding-bottom: 2rem;
+
+}
+.Example-animation textarea{
+    background: #222222;
+    box-shadow:  5px 5px 0px #1c1b1b,
+    font-size 20px;
+    
+}
+.smile{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    width: 90%;
+    height: 100px;
+    background: #000000;
+    border-box: 2px solid black;
+    color: aliceblue;
+    font-size: 15px;
+}
+.checkbox{
+    margin-right: 50remx;
+}
+    

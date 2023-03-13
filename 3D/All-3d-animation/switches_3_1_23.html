@@ -1,0 +1,505 @@
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5698283356078294"
+     crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home/3D</title>
+    <link rel="stylesheet" href="/3D/css/awe.some.css">
+    <link rel="stylesheet" href="/3D/css/sad.css">
+    <link rel="stylesheet" href="/3D/css/content.css">
+</head>
+<body style="background: rgb(204, 204, 236);">
+<header class="nav">
+    <h1 href="#home" class="active">3D Animations</h1>
+<div class="dropdown">   
+   <i class="fa fa-bars"></i>
+   <div class="topnav" id="myTopnav">
+    <a href="/3D/3dHome_3_1_23.html">Home</a> 
+    <a href="/3D/All-3d-animation/switches_3_1_23.html">Switches</a>
+    <a href="/3D/All-3d-animation/loading_3_1_23.html">Loading</a>
+    <a href="/3D/All-3d-animation/Checkbox_3_1_23.html">Checkbox</a>
+    <a href="/3D/All-3d-animation/Card_3_1_23.html">Cards</a>
+    <a href="/3D/All-3d-animation/Forms_3_1_23.html">Form</a>
+  </div>
+<div>
+</header>
+
+<div class="class-sasa">
+       
+    
+	          
+        <div class="Example-animation">  
+            <div class="love">
+                <input id="switch" type="checkbox">
+                <label class="love-heart" for="switch">
+                  <i class="left"></i>
+                  <i class="right"></i>
+                  <i class="bottom"></i>
+                  <div class="round"></div>
+                </label>
+              </div>
+
+             <div class="content-html">
+                <h1>Html</h1>
+              <textarea class="smile" id="story" name="story" rows="" cols="">
+                <div class="love">
+                    <input id="switch" type="checkbox">
+                    <label class="love-heart" for="switch">
+                      <i class="left"></i>
+                      <i class="right"></i>
+                      <i class="bottom"></i>
+                      <div class="round"></div>
+                    </label>
+                  </div>
+               </textarea>
+            </div>
+
+            <div class="content-css">
+                 <h1>CSS</h1>
+                <textarea class="smile"id="story" name="story" rows="" cols="">
+                    .love-heart:before,#switch {
+                        display: none;
+                       }
+                       
+                       .love-heart, .love-heart::after {
+                        border-color: hsl(231deg 28% 86%);
+                        border: 1px solid;
+                        border-top-left-radius: 100px;
+                        border-top-right-radius: 100px;
+                        width: 10px;
+                        height: 8px;
+                        border-bottom: 0
+                       }
+                       
+                       .round {
+                        position: absolute;
+                        z-index: 1;
+                        width: 8px;
+                        height: 8px;
+                        background: hsl(0deg 0% 100%);
+                        box-shadow: rgb(0 0 0 / 24%) 0px 0px 4px 0px;
+                        border-radius: 100%;
+                        left: 0px;
+                        bottom: -1px;
+                        transition: all .5s ease;
+                        animation: check-animation2 .5s forwards;
+                       }
+                       
+                       input:checked + label .round {
+                        transform: translate(0px, 0px);
+                        animation: check-animation .5s forwards;
+                        background-color: hsl(0deg 0% 100%);
+                       }
+                       
+                       @keyframes check-animation {
+                        0% {
+                         transform: translate(0px, 0px);
+                        }
+                       
+                        50% {
+                         transform: translate(0px, 7px);
+                        }
+                       
+                        100% {
+                         transform: translate(7px, 7px);
+                        }
+                       }
+                       
+                       @keyframes check-animation2 {
+                        0% {
+                         transform: translate(7px, 7px);
+                        }
+                       
+                        50% {
+                         transform: translate(0px, 7px);
+                        }
+                       
+                        100% {
+                         transform: translate(0px, 0px);
+                        }
+                       }
+                       
+                       .love-heart {
+                        box-sizing: border-box;
+                        position: relative;
+                        transform: rotate(-45deg) translate(-50%, -33px) scale(4);
+                        display: block;
+                        border-color: hsl(231deg 28% 86%);
+                        cursor: pointer;
+                        top: 0;
+                       }
+                       
+                       input:checked + .love-heart, input:checked + .love-heart::after, input:checked + .love-heart .bottom {
+                        border-color: hsl(347deg 81% 61%);
+                        box-shadow: inset 6px -5px 0px 2px hsl(347deg 99% 72%);
+                       }
+                       
+                       .love-heart::after, .love-heart .bottom {
+                        content: "";
+                        display: block;
+                        box-sizing: border-box;
+                        position: absolute;
+                        border-color: hsl(231deg 28% 86%);
+                       }
+                       
+                       .love-heart::after {
+                        right: -9px;
+                        transform: rotate(90deg);
+                        top: 7px;
+                       }
+                       
+                       .love-heart .bottom {
+                        width: 11px;
+                        height: 11px;
+                        border-left: 1px solid;
+                        border-bottom: 1px solid;
+                        border-color: hsl(231deg 28% 86%);
+                        left: -1px;
+                        top: 5px;
+                        border-radius: 0px 0px 0px 5px;
+                       }
+                       
+
+                </textarea>
+
+            </div>
+            
+        </div> 
+
+
+        <div class="Example-animation" style="margin-top: 20px;">  
+          <label class="switch">
+            <div class="round"><input name="onoff" id="onoff" type="checkbox">
+                <div class="back"><label for="onoff" class="but"><span class="on">0</span><span class="off">I</span></label></div>
+            </div>
+        </label>
+  
+          <div class="content-html" style="padding-top: 5rem;">
+             <h1>Html</h1>
+           <textarea class="smile" >
+            <label class="switch">
+              <div class="round"><input name="onoff" id="onoff" type="checkbox">
+                  <div class="back"><label for="onoff" class="but"><span class="on">0</span><span class="off">I</span></label></div>
+              </div>
+          </label>
+    
+            </textarea>
+         </div>
+    
+         <div class="content-css">
+              <h1>CSS</h1>
+             <textarea class="smile" id="story" name="story" rows="5" cols="33">
+              input {
+                display: none
+              }
+              
+              .on,.off {
+                position: absolute;
+                text-align: center;
+                text-shadow: inset 1px 1px 1px black;
+                width: 100%;
+              }
+              
+              .on {
+                color: #fff;
+                top: 10px;
+                transition: all 0.1s;
+                font-family: sans-serif
+              }
+              
+              .off {
+                color: #636161;
+                bottom: 5px;
+                transition: all 0.1s;
+                transform: scaleY(0.85);
+              }
+              
+              .but {
+                background-color: #000;
+                border-radius: 400px 400px 400px 400px / 400px 400px 300px 300px;
+                border-bottom-width: 0px;
+                box-shadow: inset 8px 6px 5px -7px rgba(0,0,0,1)
+                  ,inset -8px 6px 5px -7px rgba(0,0,0,1)
+                  ,inset 0 -3px 2px -2px rgba(200,200,200,.5)
+                  ,0 3px 3px -2px rgba(0,0,0,1)
+                  ,inset 0 -230px 60px -200px rgba(255,255,255,.2)
+                  ,inset 0 220px 40px -200px rgba(0,0,0,.3);
+                display: block;
+                font-size: 17px;
+                height: 60px;
+                position: relative;
+                transition: all 0.2s;
+                width: 40px;
+              }
+              
+              .back {
+                background-color: #000;
+                background-image: -webkit-linear-gradient(0deg, transparent 30%, transparent 65%)
+                  ,-webkit-linear-gradient(0deg, rgba(245, 245, 245, 0) 30%, rgba(150,150,150,.1) 50%, rgba(150,150,150,0) 70%);
+                border-radius: 115px;
+                box-sizing: border-box;
+                height: 85px;
+                padding: 4px 4px;
+                transition: all 0.2s;
+                width: 50px;
+              }
+              
+              input:checked + .back .on,input:checked + .back .off {
+                text-shadow: inset 1px 1px 1px black;
+              }
+              
+              input:checked + .back .on {
+                color: rgb(141, 141, 141);
+                top: 10px;
+                transform: scaleY(0.85);
+              }
+              
+              input:checked + .back .off {
+                color: #fff;
+                bottom: 5px;
+                transform: scaleY(1);
+              }
+              
+              input:checked + .back .but {
+                background: #232323;
+                background-image: -webkit-radial-gradient(55% 18%,circle closest-corner,rgba(0,0,0,.3) ,rgba(0,0,0,0));
+                border-radius: 410px 410px 410px 410px / 310px 310px 410px 410px;
+                box-shadow: inset 8px -4px 5px -7px rgba(0,0,0,1)
+                  ,inset -8px -4px 5px -7px rgba(0,0,0,1)
+                  , 0 -3px 8px -4px rgba(250,250,250,.4)
+                  ,inset 0 3px 4px -2px rgba(10,10,10,1)
+                  ,inset 0 280px 40px -200px rgba(0,0,0,.2)
+                  ,inset 0 -200px 40px -200px rgba(180,180,180,.2);
+                margin-top: 20px;
+              }
+              
+              input:checked + .back {
+                background-image: -webkit-linear-gradient(90deg, black 30%, transparent 65%)
+                  ,-webkit-linear-gradient(180deg, rgba(250,250,250,0) 0%, rgba(250,250,250,.4) 50%, rgba(150,150,150,0) 100%);
+                box-shadow: 28px 28px 28px -28px rgba(0,0,0,.1)
+                  ,-28px 28px 28px -22px rgba(0,0,0,.1)
+                  ,0 30px 30px 0px rgba(0,0,0,.2)
+                  ,inset 0 1px 2px 0 rgba(0,0,0,.6);
+                padding: 2px 4px;
+              }
+              
+              .l,.r {
+                margin: 0 auto;
+                text-align: center;
+              }
+              
+              .round,#onoff,.back,.but,.on,.off {
+                user-select: none;
+              }
+    
+             </textarea>
+    
+         </div>
+         
+     </div> 
+
+     <div class="Example-animation"> 
+      <label class="rocker rocker-small">
+        <input type="checkbox">
+        <span class="switch-left">Yes</span>
+        <span class="switch-right">No</span>
+      </label> 
+        
+
+      <div class="content-html">
+         <h1>Html</h1>
+       <textarea class=" smile"id="story" name="story" rows="5" cols="33">
+        <label class="rocker rocker-small">
+          <input type="checkbox">
+          <span class="switch-left">Yes</span>
+          <span class="switch-right">No</span>
+        </label> 
+        </textarea>
+     </div>
+
+     <div class="content-css">
+          <h1>CSS</h1>
+         <textarea class="smile" id="story" name="story" rows="5" cols="33">
+          /* Switch starts here */
+          .rocker {
+            display: inline-block;
+            position: relative;
+            /*
+            SIZE OF SWITCH
+            ==============
+            All sizes are in em - therefore
+            changing the font-size here
+            will change the size of the switch.
+            See .rocker-small below as example.
+            */
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            color: #888;
+            width: 7em;
+            height: 4em;
+            overflow: hidden;
+            border-bottom: 0.5em solid #eee;
+          }
+          
+          .rocker-small {
+            font-size: 0.75em;
+           /* Sizes the switch */
+            margin: 1em;
+          }
+          
+          .rocker::before {
+            content: "";
+            position: absolute;
+            top: 0.5em;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #999;
+            border: 0.5em solid #eee;
+            border-bottom: 0;
+          }
+          
+          .rocker input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+          }
+          
+          .switch-left,
+          .switch-right {
+            cursor: pointer;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 2.5em;
+            width: 3em;
+            transition: 0.2s;
+            user-select: none;
+          }
+          
+          .switch-left {
+            height: 2.4em;
+            width: 2.75em;
+            left: 0.85em;
+            bottom: 0.4em;
+            background-color: #ddd;
+            transform: rotate(15deg) skewX(15deg);
+          }
+          
+          .switch-right {
+            right: 0.5em;
+            bottom: 0;
+            background-color: #bd5757;
+            color: #fff;
+          }
+          
+          .switch-left::before,
+          .switch-right::before {
+            content: "";
+            position: absolute;
+            width: 0.4em;
+            height: 2.45em;
+            bottom: -0.45em;
+            background-color: #ccc;
+            transform: skewY(-65deg);
+          }
+          
+          .switch-left::before {
+            left: -0.4em;
+          }
+          
+          .switch-right::before {
+            right: -0.375em;
+            background-color: transparent;
+            transform: skewY(65deg);
+          }
+          
+          input:checked + .switch-left {
+            background-color: #0084d0;
+            color: #fff;
+            bottom: 0px;
+            left: 0.5em;
+            height: 2.5em;
+            width: 3em;
+            transform: rotate(0deg) skewX(0deg);
+          }
+          
+          input:checked + .switch-left::before {
+            background-color: transparent;
+            width: 3.0833em;
+          }
+          
+          input:checked + .switch-left + .switch-right {
+            background-color: #ddd;
+            color: #888;
+            bottom: 0.4em;
+            right: 0.8em;
+            height: 2.4em;
+            width: 2.75em;
+            transform: rotate(-15deg) skewX(-15deg);
+          }
+          
+          input:checked + .switch-left + .switch-right::before {
+            background-color: #ccc;
+          }
+          
+          /* Keyboard Users */
+          input:focus + .switch-left {
+            color: #333;
+          }
+          
+          input:checked:focus + .switch-left {
+            color: #fff;
+          }
+          
+          input:focus + .switch-left + .switch-right {
+            color: #fff;
+          }
+          
+          input:checked:focus + .switch-left + .switch-right {
+            color: #333;
+          }
+         </textarea>
+
+     </div>
+     
+ </div> 
+ 
+
+
+      
+</div>
+
+</div>
+
+    <footer class="foot">
+      <div class="fofofo">
+        <a href="/3D/3dHome_3_1_23.html">HOME</a> |
+        <a href="/3D/All-3d-animation/loading_3_1_23.html">loding</a> |
+        <a href="/3D/All-3d-animation/Checkbox_3_1_23.html">CHECKBOX</a> |
+        <a href="/3D/All-3d-animation/Forms_3_1_23.html">FORM</a> |
+        <a href="/3D/All-3d-animation/switches_3_1_23.html">SWITCHES</a> |
+        <a href="/3D/All-3d-animation/Card_3_1_23.html">CARD</a> |
+      
+  
+       </div>
+      <div class="icon">
+            <div class="ico">
+              <h1> follow me on</h1>
+            </div>
+			<a><i class="fa fa-youtube-play" style="font-size:36px"></i></a>
+            <a><i class="fa fa-twitter" style="font-size:36px"></i></a>
+       </div>
+
+      
+    </footer>
+    
+</body>
+</html>
